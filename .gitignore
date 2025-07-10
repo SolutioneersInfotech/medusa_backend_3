@@ -1,0 +1,92 @@
+.env
+/.env.template
+.env.production
+/node_modules
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Medusa-specific
+.medusa/
+uploads/
+
+# Build output
+dist/
+build/
+.cache/
+.next/
+out/
+.temp/
+
+# TypeScript
+*.tsbuildinfo
+
+# VSCode settings
+.vscode/
+
+# Optional: Ignore test coverage
+coverage/
+
+# Optional: Ignore database files
+*.sqlite
+*.db
+
+# Plugin artifacts (if any custom plugin is built)
+plugins/*/dist/
+
+/static
+
+.yarnrc.yml
+
+/.yarn
+
+.yarn
+
+.yarn/cache/
+# Node modules and build
+node_modules/
+dist/
+build/
+.cache/
+.temp/
+
+# Medusa
+.medusa/
+uploads/
+
+# Yarn (optional)
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Logs and environment
+.env
+*.log
+
+# OS and editor
+.DS_Store
+.vscode/
