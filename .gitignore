@@ -72,6 +72,19 @@ build/
 .temp/
 yarn.lock
 
+.yarn/
+.yarnrc.yml
+yarn.lock
+
+node_modules/
+.medusa/
+.yarn/
+yarn.lock
+.yarnrc.yml
+uploads/
+dist/
+.cache/
+
 
 # Medusa
 .medusa/
