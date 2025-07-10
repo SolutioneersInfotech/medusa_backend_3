@@ -37,13 +37,4 @@ export default defineConfig({
     // },
   },
 
-  plugins: [
-    {
-      resolve: "@medusajs/admin",
-     options: {
-      serve: true, // 👈 Tells Medusa to serve the built admin
-      path: "./.medusa/admin/build", // 👈 Path to your built admin
-    },
-    },
-  ],
 });
