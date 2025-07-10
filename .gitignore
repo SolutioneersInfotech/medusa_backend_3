@@ -85,6 +85,7 @@ uploads/
 
 # Logs and environment
 .env
+.env.test
 *.log
 
 # OS and editor
