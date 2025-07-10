@@ -61,9 +61,7 @@ plugins/*/dist/
 
 .yarnrc.yml
 
-/.yarn
 
-.yarn
 
 .yarn/cache/
 # Node modules and build
@@ -72,6 +70,8 @@ dist/
 build/
 .cache/
 .temp/
+yarn.lock
+
 
 # Medusa
 .medusa/
