@@ -59,7 +59,6 @@ plugins/*/dist/
 
 /static
 
-package-lock.json
 
 
 .yarnrc.yml

@@ -5,7 +5,8 @@ process.env.MEDUSA_FF_DISABLE_STOCK_LOCATION = "true";
 
 loadEnv(process.env.NODE_ENV || "development", process.cwd());
 
-console.log("process.env.DATABASE_URL", process.env.DATABASE_URL)
+console.log("DATABASE_URL", process.env.DATABASE_URL);
+console.log("REDIS_URL:" , process.env.REDIS_URL)
 
 export default defineConfig({
   projectConfig: {
@@ -29,12 +30,12 @@ export default defineConfig({
       resolve: "@medusajs/event-bus-local",
     },
 
-    // cacheService: {
-    //   resolve: "@medusajs/cache-redis",
-    //   options: {
-    //     redisUrl: process.env.REDIS_URL,
-    //   },
-    // },
+    cacheService: {
+      resolve: "@medusajs/cache-redis",
+      options: {
+        redisUrl: process.env.REDIS_URL,
+      },
+    },
   },
 
 });
