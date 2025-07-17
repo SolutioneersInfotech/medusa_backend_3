@@ -16,7 +16,7 @@
     "predeploy": "medusa db:migrate",
     "build": "medusa build && ln -s .medusa/server/public/ public",
     "seed": "medusa exec ./src/scripts/seed.ts",
-    "start": "medusa start",
+    "start": "medusa start && ln -s .medusa/server/public/ public",
     "dev": "medusa develop",
     "test:integration:http": "TEST_TYPE=integration:http NODE_OPTIONS=--experimental-vm-modules jest --silent=false --runInBand --forceExit",
     "test:integration:modules": "TEST_TYPE=integration:modules NODE_OPTIONS=--experimental-vm-modules jest --silent --runInBand --forceExit",
