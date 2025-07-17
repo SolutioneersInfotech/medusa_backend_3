@@ -13,8 +13,8 @@ export default defineConfig({
     databaseUrl: process.env.DATABASE_URL,
     redisUrl: process.env.REDIS_URL,
     http: {
-      storeCors: "http://localhost:3001",
-      adminCors: "http://localhost:3001",
+      storeCors: "http://localhost:3000",
+      adminCors: "http://localhost:3000",
       authCors: process.env.AUTH_CORS || "http://localhost:5173",
     },
     
