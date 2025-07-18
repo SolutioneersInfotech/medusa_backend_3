@@ -30,7 +30,6 @@ pids
 Thumbs.db
 
 # Medusa-specific
-.medusa/
 uploads/
 
 # Build output
@@ -80,7 +79,6 @@ yarn.lock
 yarn.lock
 
 node_modules/
-.medusa/
 .yarn/
 yarn.lock
 .yarnrc.yml
@@ -90,7 +88,6 @@ dist/
 
 
 # Medusa
-.medusa/
 uploads/
 
 # Yarn (optional)
